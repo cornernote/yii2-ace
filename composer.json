@@ -1,7 +1,7 @@
 {
     "name": "cornernote/yii2-ace",
     "require": {
-        "cornernote/ace": "*"
+        "bower-asset/cornernote-ace": "*"
     },
     "autoload": {
         "psr-4": {
