@@ -1,5 +1,6 @@
-# Yii2 Ace Theme
+# Yii2 Ace
 
+Ace theme for Yii2
 
 ## Installation
 
