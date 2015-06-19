@@ -8,7 +8,7 @@ Add the following to your `composer.json`:
 ```json
 {
     "require": {
-        "cornernote/yii2-ace-admin": "dev-master"
+        "cornernote/yii2-ace": "dev-master"
     }
 }
 ```
@@ -36,9 +36,9 @@ use app\assets\AppAsset;
 
 AppAsset::register($this);
 
-$viewPath = '@vendor/cornernote/yii2-ace-admin/views/layouts';
+$viewPath = '@vendor/cornernote/yii2-ace/views/layouts';
 
 $regex = '|(\\' . DIRECTORY_SEPARATOR . '[^\\' . DIRECTORY_SEPARATOR . ']*\\' . DIRECTORY_SEPARATOR . '[^\\' . DIRECTORY_SEPARATOR . ']*\.php)$|';
 preg_match($regex, __FILE__, $matches);
-require(Yii::getAlias('@vendor/cornernote/yii2-ace-admin/views' . $matches[1]));
+require(Yii::getAlias('@vendor/cornernote/yii2-ace/views' . $matches[1]));
 ```
