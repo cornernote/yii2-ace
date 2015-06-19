@@ -18,7 +18,7 @@ or add
 "cornernote/yii2-ace": "*"
 ```
 
-to the ```require``` section of your `composer.json` file.
+to the `require` section of your `composer.json` file.
 
 
 
