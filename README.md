@@ -1,4 +1,4 @@
-# Yii2 Ace Admin
+# Yii2 Ace Theme
 
 
 ## Installation
