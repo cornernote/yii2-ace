@@ -1,0 +1,85 @@
+/**
+ * Bootstrap and Ace Overrides
+ */
+
+@media only screen and (min-width: 992px) {
+    .navbar-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+small, .small {
+    line-height: 100%;
+}
+
+ul.nav, ol.nav {
+    margin-left: 0;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+    border-bottom-width: 1px;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #FFFCDA;
+}
+
+.btn-group > .btn > .caret {
+    margin-top: 0;
+}
+
+button.btn:active {
+    top: 0;
+}
+
+.required label {
+    font-weight: bold;
+}
+
+.required label.checkbox-inline,
+.required label.radio-inline {
+    font-weight: normal;
+}
+
+.tab-content {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 479px) {
+    .navbar:not(.navbar-collapse) .navbar-header.pull-left {
+        float: left !important;
+    }
+
+    .navbar:not(.navbar-collapse) .navbar-header.pull-right {
+        float: right !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+/**
+ * Select2 Overrides
+ */
+
+.select2-container--krajee .select2-selection {
+    border-radius: 0;
+}
+
+.select2-container--krajee.select2-container--focus .select2-selection,
+.select2-container--krajee.select2-container--open .select2-selection,
+.select2-container--krajee .select2-dropdown {
+    box-shadow: none;
+    border-color: #F59942;
+}
