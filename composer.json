@@ -1,8 +1,7 @@
 {
     "name": "cornernote/yii2-ace",
     "require": {
-        "cornernote/ace-admin-theme": "dev-master",
-        "cornernote/yii2-menu": "dev-master"
+        "cornernote/ace": "dev-master"
     },
     "autoload": {
         "psr-4": {
