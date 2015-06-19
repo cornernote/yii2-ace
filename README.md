@@ -1,11 +1,6 @@
 # Yii2 Ace Admin
 
 
-## Ace Admin
-
-Version 1.3.3
-
-
 ## Installation
 
 Add the following to your `composer.json`:
