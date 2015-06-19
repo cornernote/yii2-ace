@@ -1,7 +1,8 @@
 {
     "name": "cornernote/yii2-ace",
     "require": {
-        "bower-asset/cornernote-ace": "*"
+        "bower-asset/cornernote-ace": "*",
+        "rmrevin/yii2-fontawesome": "*"
     },
     "autoload": {
         "psr-4": {
