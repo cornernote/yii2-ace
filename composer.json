@@ -1,12 +1,12 @@
 {
-    "name": "cornernote/yii2-ace-admin",
+    "name": "cornernote/yii2-ace",
     "require": {
         "cornernote/ace-admin-theme": "dev-master",
         "cornernote/yii2-menu": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "cornernote\\aceadmin\\": ""
+            "cornernote\\ace\\": ""
         }
     }
 }
