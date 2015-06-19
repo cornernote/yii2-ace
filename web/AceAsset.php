@@ -1,6 +1,6 @@
 <?php
 
-namespace cornernote\aceadmin\web;
+namespace cornernote\ace\web;
 
 use yii\web\AssetBundle;
 
@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  */
 class AceAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/cornernote/yii2-ace-admin/assets';
+    public $sourcePath = '@vendor/cornernote/yii2-ace/assets';
     public $css = [
         'css/ace_yii.css',
     ];
@@ -20,8 +20,8 @@ class AceAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapPluginAsset',
         'rmrevin\yii\fontawesome\AssetBundle',
-        'cornernote\aceadmin\web\AceBaseAsset',
-        'cornernote\aceadmin\web\AceExtraAsset',
-        'cornernote\aceadmin\web\AceIEAsset',
+        'cornernote\ace\web\AceBaseAsset',
+        'cornernote\ace\web\AceExtraAsset',
+        'cornernote\ace\web\AceIEAsset',
     ];
 }

@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace cornernote\aceadmin\widgets;
+namespace cornernote\ace\widgets;
 
 use \yii\bootstrap\Alert as BootstrapAlert;
 use \yii\bootstrap\Widget;

@@ -1,6 +1,6 @@
 <?php
 
-namespace cornernote\aceadmin\web;
+namespace cornernote\ace\web;
 
 use yii\web\AssetBundle;
 
@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  */
 class AceBaseAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/cornernote/ace-admin-theme/assets';
+    public $sourcePath = '@vendor/cornernote/ace/assets';
     public $css = [
         'fonts/fonts.googleapis.com.css',
         'css/ace.min.css',
