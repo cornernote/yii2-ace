@@ -4,15 +4,23 @@ Ace theme for Yii2
 
 ## Installation
 
-Add the following to your `composer.json`:
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-```json
-{
-    "require": {
-        "cornernote/yii2-ace": "dev-master"
-    }
-}
+Either run
+
 ```
+$ composer require cornernote/yii2-ace "*"
+```
+
+or add
+
+```
+"cornernote/yii2-ace": "*"
+```
+
+to the ```require``` section of your `composer.json` file.
+
+
 
 Add the following to your `AppAsset.php`:
 
