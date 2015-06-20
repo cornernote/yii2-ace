@@ -23,5 +23,10 @@
         "psr-4": {
             "cornernote\\ace\\": "src"
         }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
     }
 }
