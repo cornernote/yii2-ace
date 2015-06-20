@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-!empty($viewPath) || $viewPath = '@vendor/cornernote/yii2-ace/views/layouts';
+!empty($viewPath) || $viewPath = '@vendor/cornernote/yii2-ace/src/views/layouts';
 !empty($viewNavbar) || $viewNavbar = $viewPath . '/_navbar';
 !empty($viewSidebar) || $viewSidebar = $viewPath . '/_sidebar';
 !empty($viewFooter) || $viewFooter = $viewPath . '/_footer';

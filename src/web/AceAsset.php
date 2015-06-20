@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  */
 class AceAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/cornernote/yii2-ace/assets';
+    public $sourcePath = '@vendor/cornernote/yii2-ace/src/assets';
     public $css = [
         'css/ace_yii.css',
     ];
