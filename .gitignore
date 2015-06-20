@@ -1,25 +1,11 @@
-build
-composer.lock
-docs
-vendor
-
-# cache directories
-Thumbs.db
-*.DS_Store
-*.empty
-
-#phpstorm project files
+# ignore IDE specific files and dirs
 .idea
-
-#netbeans project files
-nbproject
-
-#eclipse, zend studio, aptana or other eclipse like project files
-.buildpath
-.project
 .settings
+.project
+.buildpath
 
+# ignore vendor
+vendor/
 
-# mac deployment helpers
-switch
-index
+# ignore temporary files
+*~
