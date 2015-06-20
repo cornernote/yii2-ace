@@ -14,10 +14,7 @@ class AceExtraAsset extends AssetBundle
     public $js = [
         'js/ace-extra.min.js',
     ];
-
-    public function init()
-    {
-        $this->jsOptions['position'] = View::POS_HEAD;
-        parent::init();
-    }
+    public $jsOptions = [
+        'position' => View::POS_HEAD,
+    ];
 }

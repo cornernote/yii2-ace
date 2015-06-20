@@ -53,7 +53,7 @@ use app\assets\AppAsset;
 
 AppAsset::register($this);
 
-$viewPath = '@vendor/cornernote/yii2-ace/views/layouts';
+$viewPath = '@vendor/cornernote/yii2-ace/src/views/layouts';
 
 $regex = '|(\\' . DIRECTORY_SEPARATOR . '[^\\' . DIRECTORY_SEPARATOR . ']*\\' . DIRECTORY_SEPARATOR . '[^\\' . DIRECTORY_SEPARATOR . ']*\.php)$|';
 preg_match($regex, __FILE__, $matches);

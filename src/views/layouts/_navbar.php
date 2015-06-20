@@ -26,7 +26,7 @@ use cebe\gravatar\Gravatar;
             <ul class="nav ace-nav">
                 <li class="light-blue">
 
-                    <?php if (!Yii::$app->user->isGuest) { ?>
+                    <?php if (Yii::$app->user && !Yii::$app->user->isGuest) { ?>
                         <a data-toggle="dropdown" href="#" class="dropdown-toggle">
                             <?= Gravatar::widget([
                                 'email' => Yii::$app->user->identity->email,
@@ -44,13 +44,11 @@ use cebe\gravatar\Gravatar;
                         </a>
                         <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
                             <li>
-                                <a href="<?= \yii\helpers\Url::to(['/user/settings/profile']) ?>"><i
-                                        class="ace-icon fa fa-user"></i> Profile</a>
+                                <a href="<?= \yii\helpers\Url::to(['/user/settings/profile']) ?>"><i class="ace-icon fa fa-user"></i> Profile</a>
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a href="<?= \yii\helpers\Url::to(['/user/security/logout']) ?>" data-method="post"><i
-                                        class="ace-icon fa fa-power-off"></i> Sign out</a>
+                                <a href="<?= \yii\helpers\Url::to(['/user/security/logout']) ?>" data-method="post"><i class="ace-icon fa fa-power-off"></i> Sign out</a>
                             </li>
                         </ul>
                     <?php } ?>
