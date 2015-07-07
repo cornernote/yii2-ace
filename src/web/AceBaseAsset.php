@@ -12,7 +12,7 @@ class AceBaseAsset extends AssetBundle
     public $sourcePath = '@vendor/bower/cornernote-ace/assets';
     public $css = [
         'fonts/fonts.googleapis.com.css',
-        'css/ace.min.css',
+        'css/ace.css',
     ];
     public $js = [
         'js/ace-elements.min.js',
