@@ -19,7 +19,7 @@ use cornernote\ace\widgets\Alert;
 
         <div class="page-header">
             <h1>
-                <?= $this->title ?>
+                <?= !empty($this->params['heading']) ? $this->params['heading'] : $this->title ?>
             </h1>
         </div>
 
