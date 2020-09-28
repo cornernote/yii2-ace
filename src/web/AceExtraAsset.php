@@ -10,7 +10,7 @@ use yii\web\View;
  */
 class AceExtraAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/cornernote-ace/assets';
+    public $sourcePath = '@bower/cornernote-ace/assets';
     public $js = [
         'js/ace-extra.min.js',
     ];
